@@ -5,66 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&family=Ruda:wght@700&display=swap" rel="stylesheet">
     <title>Web Studio</title>
   </head>
 
   <body>
-    <header>
-      <div>
-        <a href="" style="text-decoration: none">
-          <span>Web</span>
-          <span>Studio</span>
-        </a>
-      </div>
-
-      <ul>
-        <li><a href="#" style="text-decoration: none">Студия</a></li>
-        <li><a href="#" style="text-decoration: none">Портфолио</a></li>
-        <li><a href="#" style="text-decoration: none">Контакты</a></li>
-      </ul>
-
-      <ul>
-        <li>
-          <a href="mailto: info@devstudio.com" style="text-decoration: none"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" style="text-decoration: none"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </header>
+    <div class="container">
+      <header class="category">
+        <div>
+          <a href="" style="text-decoration: none">
+            <span class="logo">Web</span>
+            <span class="logo1">Studio</span>
+          </a>
+        </div>
+      
+        <ul class="menu" style="list-style: none;">
+          <li><a class="studia" style="text-decoration: none" href="studia.html">Студия</a></li>
+          <li><a style="text-decoration: none" href="portfolio.html">Портфолио</a></li>
+          <li><a style="text-decoration: none" href="#">Контакты</a></li>
+        </ul>
+      
+        <ul class="menu-addres" style="list-style: none;">
+          <li>
+            <a style="text-decoration: none" href="mailto: info@devstudio.com"
+              style="text-decoration: none">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="header__tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </header>
+    </div>
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнес</h1>
-        <img src="" alt="зображення офісної роботи компанії" />
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="title">Эффективные решения <br> для вашего бизнес</h1>
+        <button class="bg-shop" type="button">Заказать услугу</button>
       </section>
-
-      <ul>
-        <li>
-          <img src="" alt="якості до деталей якість команди" />
-        </li>
-        <li>
-          <img src="" alt="пунктуальність якість команди" />
-        </li>
-        <li>
-          <img src="" alt="планування якість команди" />
-        </li>
-        <li>
-          <img src="" alt="використання нових технологій якість команди" />
-        </li>
-      </ul>
-
-      <ul>
+      <ul class="container-characteristics" style="list-style: none;">
         <li>Внимание к деталям</li>
         <li>Пунктуальность</li>
         <li>Планирование</li>
         <li>Современные технологии</li>
       </ul>
-      <ul>
+      <ul class="container-characteristics-text">
         <li width="275">
           Идейные соображения, а также<br />начало повседневной работы по<br />формированию
           позиции
@@ -187,8 +170,8 @@
     </main>
     <footer>
       <a href="#" style="text-decoration: none">
-        <span>Web</span>
-        <span>Studio</span>
+        <span class="logo">Web</span>
+        <span class="logo1">Studio</span>
       </a>
       <address>
         <ul>
