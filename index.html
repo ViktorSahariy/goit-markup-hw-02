@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&family=Ruda:wght@700&display=swap" rel="stylesheet">
-    <title>Web Studio</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <header class="category">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&family=Ruda:wght@700&display=swap"
+    rel="stylesheet" />
+  <title>Web Studio</title>
+</head>
+
+<body>
+ <div class="container">
+    <header>
+      <div  class="category">
         <div>
           <a href="" style="text-decoration: none">
             <span class="logo">Web</span>
             <span class="logo1">Studio</span>
           </a>
-        </div>
-      
-        <ul class="menu" style="list-style: none;">
-          <li><a class="studia" style="text-decoration: none" href="studia.html">Студия</a></li>
-          <li><a style="text-decoration: none" href="portfolio.html">Портфолио</a></li>
-          <li><a style="text-decoration: none" href="#">Контакты</a></li>
-        </ul>
-      
-        <ul class="menu-addres" style="list-style: none;">
+        </div> 
+  
+        <ul class="menu" style="list-style: none">
           <li>
-            <a style="text-decoration: none" href="mailto: info@devstudio.com"
+            <a class="studia" style="text-decoration: none" href="studia.html">Студия</a>
+          </li>
+          <li>
+            <a class="portfolio" style="text-decoration: none" href="portfolio.html">Портфолио</a>
+          </li>
+          <li>
+            <a class="contactu" style="text-decoration: none" href="#">Контакты</a>
+          </li>
+        </ul>
+  
+        <ul class="menu-addres" style="list-style: none">
+          <li>
+            <a class="gmail" style="text-decoration: none" href="mailto: info@devstudio.com"
               style="text-decoration: none">info@devstudio.com</a>
           </li>
           <li>
@@ -36,160 +46,120 @@
         </ul>
       </header>
     </div>
-    <main>
-      <section class="hero">
-        <h1 class="title">Эффективные решения <br> для вашего бизнес</h1>
-        <button class="bg-shop" type="button">Заказать услугу</button>
-      </section>
-      <ul class="container-characteristics" style="list-style: none;">
-        <li>Внимание к деталям</li>
-        <li>Пунктуальность</li>
-        <li>Планирование</li>
-        <li>Современные технологии</li>
-      </ul>
-      <ul class="container-characteristics-text">
-        <li width="275">
-          Идейные соображения, а также<br />начало повседневной работы по<br />формированию
-          позиции
-        </li>
-        <li width="275">
-          Задача организации, в особенности<br />же рамки и место обучения
-          кадров<br />влечет за собой
-        </li>
-        <li width="275">
-          Равным образом консультация с<br />широким активом в значительной<br />степени
-          обуславливает
-        </li>
-        <li width="275">
-          Значимость этих проблем настолько<br />очевидна, что реализация
-          плановых<br />заданий
-        </li>
-      </ul>
+  <main>
+    <section class="hero">
+      <h1 class="title">
+        Эффективные решения <br />
+        для вашего бизнес
+      </h1>
+      <button class="bg-shop" type="button">Заказать услугу</button>
+    </section>
 
-      
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <img src="" alt="Десктопные приложения" />
-          </li>
-          <li>
-            <img src="" alt="Мобильные приложения" />
-          </li>
-          <li>
-            <img src="" alt="Дизайнерские решения" />
-          </li>
-        </ul>
+    <div class="wrapper">
+          <div class="container">
+            <ul class="row">
+              <li>
+                <p class="row-title">Внимание к деталям</p>
+                <p class="text-row">
+                  Идейные соображения, а также<br />начало повседневной работы по<br />формированию
+                  позиции
+                </p>
+              </li>
+              <li>
+                <p class="row-title">Пунктуальность</p>
+                <p class="text-row">
+                  Задача организации, в особенности<br />же рамки и место обучения
+                  кадров<br />влечет за собой
+                </p>
+              </li>
+              <li>
+                <p class="row-title">Планирование</p>
+                <p class="text-row">
+                  Равным образом консультация с<br />широким активом в
+                  значительной<br />степени обуславливает
+                </p>
+              </li>
+              <li>
+                <p class="row-title">Современные технологии</p>
+                <p class="text-row">
+                  Значимость этих проблем настолько<br />очевидна, что реализация
+                  плановых<br />заданий
+                </p>
+              </li>
+            </ul>
+          </div>
+          
+          <h2 class="title-we-can">Чем мы занимаемся</h2>
+          <div class="container">
+            <ul class="row-we-can">
+              <li>
+                <img src="images/deskaplication.jpg" width="370" height="294" alt="Десктопные приложения" />
+              </li>
+              <li>
+                <img src="images/mobilaplication.jpg" width="378" height="294" alt="Мобильные приложения" />
+              </li>
+              <li>
+                <img src="images/disenoresvuelto.jpg" width="378" height="294" alt="Дизайнерские решения" />
+              </li>
+            </ul>
+          </div>
+    </div>
 
-        <ul>
-          <li>Десктопные приложения</li>
-          <li>Мобильные приложения</li>
-          <li>Дизайнерские решения</li>
-        </ul>
-      
+    <div class="team">
+      <div class="container">
+        <h2 class="team-titel">Наша команда</h2>
 
-      
-        <h2>Наша команда</h2>
+        <div class="team2">
+          <section class="bg-card">
+            <img src="images/igor.jpg" width="270" height="260" alt="Игорь Демьяненко" />
+            <p class="bg-text">Игорь Демьяненко</p>
+            <p class="bg-job">Product Designer</p>
+          </section>
 
-        <ul>
-          <li>
-            <img src="" alt="Игорь Демьяненко" />
-          </li>
-          <li>
-            <img src="" alt="Ольга Репина" />
-          </li>
-          <li>
-            <img src="" alt="Николай Тарасов" />
-          </li>
-          <li>
-            <img src="" alt="Михаил Ермаков" />
-          </li>
-        </ul>
+          <section class="bg-card">
+            <img src="images/olga.jpg" width="270" height="260" alt="Ольга Репина" />
+            <p class="bg-text">Ольга Репина</p>
+            <p class="bg-job">Frontend Developer</p>
+          </section>
 
-        <ul>
-          <li>Игорь Демьяненко</li>
-          <li>Ольга Репина</li>
-          <li>Николай Тарасов</li>
-          <li>Михаил Ермаков</li>
-        </ul>
-        <ul>
-          <li>Product Designer</li>
-          <li>Frontend Developer</li>
-          <li>Marketing</li>
-          <li>UI Designer</li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#"><img src="" alt="посилання на сторінку інстаграм" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку твітер" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку фейсбук" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку лінкедін" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="" alt="посилання на сторінку інстаграм" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку твітер" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку фейсбук" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку лінкедін" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="" alt="посилання на сторінку інстаграм" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку твітер" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку фейсбук" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку лінкедін" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="" alt="посилання на сторінку інстаграм" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку твітер" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку фейсбук" /></a>
-            <a href="#"><img src="" alt="посилання на сторінку лінкедін" /></a>
-          </li>
-        </ul>
-      
+          <section class="bg-card">
+            <img src="images/kolia.jpg" width="270" height="260" alt="Николай Тарасов" />
+            <p class="bg-text">Николай Тарасов</p>
+            <p class="bg-job">Marketing</p>
+          </section>
 
-      
-        <h2>Постоянные клиенты</h2>
-
-          <ul>
-            <li><a href="#"></a><img src="" alt="наші клієнти" /></td>
-            <li>
-              <a href="#"><img src="" alt="наші клієнти" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="наші клієнти" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="наші клієнти" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="наші клієнти" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="наші клієнти" /></a>
-            </li>
-          </ul>
-  
-    </main>
-    <footer>
+          <section class="bg-card">
+            <img src="images/muha.jpg" width="270" height="260" alt="Михаил Ермаков" />
+            <p class="bg-text">Михаил Ермаков</p>
+            <p class="bg-job">UI Designer</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-logo">
+      <address >
       <a href="#" style="text-decoration: none">
         <span class="logo">Web</span>
-        <span class="logo1">Studio</span>
+        <span class="logo-studio">Studio</span>
       </a>
-      <address>
-        <ul>
-          <li style="list-style: none">
-            <a href="#">г. Киев, пр-т Леси Украинки, 26</a>
+      
+        <ul class="footer-box">
+          <li>
+            <a class="footer-street" href="#" style="text-decoration: none;">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
-          <li style="list-style: none">
-            <a href="mailto:info@example.com" style="text-decoration: none"
-              >info@example.com</a
-            >
+          <li>
+            <a class="footer-address" href="mailto:info@example.com" style="text-decoration: none">info@example.com</a>
           </li>
-          <li style="list-style: none">
-            <a href="tel:>+380991111111" style="text-decoration: none"
-              >+38 099 111 11 11</a
-            >
+          <li>
+            <a class="footer-address" href="tel:>+380991111111" style="text-decoration: none">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
-    </footer>
-  </body>
+
+    </div>
+  </footer>
+</body>
+
 </html>

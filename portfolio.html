@@ -5,104 +5,263 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&family=Ruda:wght@700&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&family=Ruda:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
-  <body>
-    <header>
-      <div>
-        <a href="index.html" style="text-decoration: none">
-          <span class="logo-portfolio">Web</span>
-          <span class="logo-portfolio1">Studio</span>
-        </a>
-      </div>
 
-      <ul style="list-style: none;">
-        <li><a  style="text-decoration: none" href="#">Студия</a></li>
-        <li><a  style="text-decoration: none" href="#">Портфолио</a></li>
-        <li><a  style="text-decoration: none" href="#">Контакты</a></li>
-      </ul>
-      <ul style="list-style: none;">
-        <li><a  style="text-decoration: none" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a  style="text-decoration: none" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+  <body>
+    <!-- <div class="container"> -->
+    <header class="header">
+      <div class="container">
+        <div class="category">
+          <div>
+            <a href="index.html" style="text-decoration: none">
+              <span class="logo">Web</span>
+              <span class="logo1">Studio</span>
+            </a>
+          </div>
+
+          <ul class="menu" style="list-style: none">
+            <li>
+              <a class="studia" style="text-decoration: none" href="index.html"
+                >Студия</a
+              >
+            </li>
+            <li>
+              <a
+                class="portfolio"
+                style="text-decoration: none"
+                href="portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li>
+              <a class="contactu" style="text-decoration: none" href="#"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+
+          <ul class="menu-addres" style="list-style: none">
+            <li>
+              <a
+                class="gmail"
+                style="text-decoration: none"
+                href="mailto: info@devstudio.com"
+                style="text-decoration: none"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header__tel" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <ul style="list-style: none;">
-        <li>
-          <button type="button"><a href="">Все</a></button>
-        </li>
-        <li>
-          <button style="text-decoration: none" type="button"><a style="text-decoration: none" href="">Веб-сайты</a></button>
-        </li>
-        <li>
-          <button type="button"><a style="text-decoration: none" href="">Приложения</a></button>
-        </li>
-        <li>
-          <button  type="button"><a style="text-decoration: none" href="">Дизайн</a></button>
-        </li>
-        <li>
-          <button type="button"><a  href="">Маркетинг</a></button>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="main-conteiner">
+          <div class="main-button">
+            <ul class="main-button__contant">
+              <li>
+                <button class="catalog-btn" type="button">Все</button>
+              </li>
 
-      <ul style="list-style: none;">
-        <img src="images/tehnokrak.svg" width="" height="" alt="" />
-        <li><a style="text-decoration: none" href="#">Технокряк</a></li>
-        <li><a style="text-decoration: none" href="#">Веб-сайт</a></li>
+              <li>
+                <button class="catalog-btn" type="button">Веб-сайты</button>
+              </li>
 
-        <img src="images/basket.svg" width="" height="" alt="" />
-        <li><a style="text-decoration: none" href="#">Постер New Orlean vs Golden Star</a></li>
-        <li><a style="text-decoration: none" href="#">Дизайн</a></li>
+              <li>
+                <button class="catalog-btn" type="button">Приложения</button>
+              </li>
 
-        <img src="images/restoran.svg" width="" height="" alt="" />
-        <li><a style="text-decoration: none" href="#">Ресторан Seafood</a></li>
-        <li><a style="text-decoration: none" href="#">Приложение</a></li>
+              <li>
+                <button class="catalog-btn" type="button">Дизайн</button>
+              </li>
 
-        <img src="images/prime.svg" width="" height="" alt="" />
-        <li><a style="text-decoration: none" href="#">Проект Prime</a></li>
-        <li><a style="text-decoration: none" href="#">Маркетинг</a></li>
+              <li>
+                <button class="catalog-btn" type="button">Маркетинг</button>
+              </li>
+            </ul>
+          </div>
+          <div class="main-card">
+            <ul class="main-card__contant">
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/lab2.jpg"
+                    width="370"
+                    height="294"
+                    alt="Веб-сайт технокряк"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text"><a href="#">Технокряк</a></p>
+                  <p class="main-link"><a href="#">Веб-сайт</a></p>
+                </div>
+              </li>
 
-        <img src="images/boxes.svg" width="" height="" alt="" />
-        <li><a style="text-decoration: none" href="#">Проект Boxes</a></li>
-        <li><a style="text-decoration: none" href="#">Приложение</a></li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/basket2.jpg"
+                    width="370"
+                    height="294"
+                    alt="Постер New Orlean vs Golden Star"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text">
+                    <a href="#">Постер New Orlean vs Golden Star</a>
+                  </p>
+                  <p class="main-link"><a href="#">Дизайн</a></p>
+                </div>
+              </li>
 
-        <img src="images/tv.svg" width="" height="" alt="" />
-        <li><a style="text-decoration: none" href="#">Inspiration has no Borders</a></li>
-        <li><a style="text-decoration: none" href="#">Веб-сайт</a></li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/seafood.jpg"
+                    width="370"
+                    height="294"
+                    alt="Ресторан Seafood"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text"><a href="#">Ресторан Seafood</a></p>
+                  <p class="main-link"><a href="#">Приложение</a></p>
+                </div>
+              </li>
 
-        <img src="images/book.svg" alt="" />
-        <li><a style="text-decoration: none" href="#">Издание Limited Edition</a></li>
-        <li><a style="text-decoration: none" href="#">Дизайн</a></li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/soud2.jpg"
+                    width="370"
+                    height="294"
+                    alt="Проект Prime"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text"><a href="#">Проект Prime</a></p>
+                  <p class="main-link"><a href="#">Маркетинг</a></p>
+                </div>
+              </li>
 
-        <img src="images/Lab.svg" alt="" />
-        <li><a style="text-decoration: none" href="#">Проект LAB </a></li>
-        <li><a style="text-decoration: none" href="#">Маркетинг</a></li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/boxes2.jpg"
+                    width="370"
+                    height="294"
+                    alt="Проект Boxes"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text"><a href="#">Проект Boxes</a></p>
+                  <p class="main-link"><a href="#">Приложение</a></p>
+                </div>
+              </li>
 
-        <img src="images/laptop.svg" alt="" />
-        <li><a style="text-decoration: none" href="#">Growing Business</a></li>
-        <li><a style="text-decoration: none" href="#">Приложение</a></li>
-      </ul>
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/border.jpg"
+                    width="370"
+                    height="294"
+                    alt="Inspiration has no Borders"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text">
+                    <a href="#">Inspiration has no Borders</a>
+                  </p>
+                  <p class="main-link"><a href="#">Веб-сайт</a></p>
+                </div>
+              </li>
+
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/book2.jpg"
+                    width="370"
+                    height="294"
+                    alt="Издание Limited Edition"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text">
+                    <a href="#">Издание Limited Edition</a>
+                  </p>
+                  <p class="main-link"><a href="#">Дизайн</a></p>
+                </div>
+              </li>
+
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/lab2.jpg"
+                    width="370"
+                    height="294"
+                    alt="Проект LAB"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text"><a href="#">Проект LAB </a></p>
+                  <p class="main-link"><a href="#">Маркетинг</a></p>
+                </div>
+              </li>
+
+              <li>
+                <a href="#"
+                  ><img
+                    src="images/growing.jpg"
+                    width="370"
+                    height="294"
+                    alt="Growing Business"
+                /></a>
+                <div class="card__text">
+                  <p class="main-text"><a href="#">Growing Business</a></p>
+                  <p class="main-link"><a href="#">Приложение</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
+    <!-- </div> -->
     <footer>
-      <span class="logo">Web</span><span class="logo1">Studio</span>
-      <address>
-        <ul>
-          <li style="list-style: none">
-            <a href="#">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li style="list-style: none">
-            <a href="mailto:info@example.com" style="text-decoration: none"
-              >info@example.com</a
-            >
-          </li>
-          <li style="list-style: none">
-            <a href="tel:>+380991111111" style="text-decoration: none"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="footer-logo">
+        <address>
+          <a href="#" style="text-decoration: none">
+            <span class="logo">Web</span>
+            <span class="logo-studio">Studio</span>
+          </a>
+
+          <ul class="footer-box">
+            <li>
+              <a class="footer-street" href="#" style="text-decoration: none"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-address"
+                href="mailto:info@example.com"
+                style="text-decoration: none"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-address"
+                href="tel:>+380991111111"
+                style="text-decoration: none"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
