@@ -36,36 +36,37 @@ ol {
 .logo {
   color: var(--color-primary);
   font-family: var(--font-family-secondary);
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
 }
 
 .logo1 {
   color: black;
-font-family: var(--font-family-secondary);
+  font-family: var(--font-family-secondary);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
 }
 
 .logo-portfolio {
   color: var(--color-primary);
-font-family: var(--font-family-secondary);
+  font-family: var(--font-family-secondary);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
 }
 
 .logo-portfolio1 {
   color: var(--color-black);
-font-family: var(--font-family-secondary);
+  font-family: var(--font-family-secondary);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
 }
 
@@ -83,7 +84,7 @@ font-family: var(--font-family-secondary);
 .header__tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--color-gris);
   text-decoration: none;
@@ -97,7 +98,7 @@ font-family: var(--font-family-secondary);
 .menu li {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--color-black);
   padding-right: 50px;
@@ -128,7 +129,7 @@ font-family: var(--font-family-secondary);
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.364;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -145,11 +146,11 @@ font-family: var(--font-family-secondary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
-  color: var(--color-white);
-  border: none;
-}
+    color: var(--color-white);
+    border: none;
+  }
 
 .row {
   display: flex;
@@ -160,7 +161,7 @@ font-family: var(--font-family-secondary);
 .row-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-black);
@@ -168,7 +169,7 @@ font-family: var(--font-family-secondary);
 
 .text-row {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--color-gris);
 }
@@ -176,7 +177,7 @@ font-family: var(--font-family-secondary);
 .title-we-can {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-black);
@@ -201,7 +202,7 @@ font-family: var(--font-family-secondary);
   padding: 94px 0 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -216,7 +217,7 @@ font-family: var(--font-family-secondary);
 .bg-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-black);
@@ -243,13 +244,14 @@ font-family: var(--font-family-secondary);
   height: 252px;
   padding: 0 215px;
   background: #2f303a;
+  
 }
 
 .logo-studio {
-font-family: var(--font-family-secondary);
+  font-family: var(--font-family-secondary);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--color-white);
 }
@@ -262,18 +264,25 @@ font-family: var(--font-family-secondary);
 
 .footer-street {
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.714;
+  letter-spacing: 0.03em; 
   color: var(--color-white);
 }
 
 .footer-address {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.logo-studio a {
+  font-style: normal;
+}
+
+.footer-logo, .logo-studio, .footer-address, .footer-street {
+  font-style: normal;
+}
 /*PORFOLIO*/
 
 .main-conteiner {
@@ -283,7 +292,7 @@ font-family: var(--font-family-secondary);
 .main-button {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+ 
 }
 
 .main-card {
@@ -292,7 +301,9 @@ font-family: var(--font-family-secondary);
   justify-content: center;
 }
 
-.contactu, .portfolio, .studia  {
+.contactu,
+.portfolio,
+.studia {
   color: var(--color-black);
 }
 
@@ -303,10 +314,13 @@ font-family: var(--font-family-secondary);
 .main-button__contant {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .main-button__contant li {
+  flex-direction: row;
   padding-right: 8px;
+
 }
 
 .main-card__contant {
@@ -324,7 +338,7 @@ font-family: var(--font-family-secondary);
   margin: 0 24px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2.000;
   letter-spacing: 0.06em;
   color: #212121;
 }
@@ -337,7 +351,7 @@ font-family: var(--font-family-secondary);
 
 .main-link {
   margin: 0 24px;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--color-gris);
 }
@@ -356,7 +370,7 @@ font-family: var(--font-family-secondary);
   font-family: inherit;
   font-weight: 500;
   font-size: inherit;
-  line-height: 26px;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-black);
@@ -367,9 +381,8 @@ font-family: var(--font-family-secondary);
 .catalog-btn:hover {
   background: var(--color-primary);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
   color: var(--color-white);
 }
-
